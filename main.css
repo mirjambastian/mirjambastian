@@ -1,9 +1,24 @@
 h1 {
     font-family: "Courier New", Courier, monospace;
-    background-color: #fcf4f6;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: pink;
+    font-weight: bold;
     color: #44161d;
 }
+
 body {
     font-family: "Courier New", Courier, monospace;
+    text-align: center;
     background-color: #fcf4f6;
+}
+
+ul{
+	display: inline-block;
+	text-align: left;
+}
+.menu {
+	background: black;
+	color: white;
 }
