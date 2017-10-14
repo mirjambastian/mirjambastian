@@ -1,9 +1,10 @@
 h1 {
     font-family: "Courier New", Courier, monospace;
     text-align: center;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     background-color: pink;
+    font-size: 250%;
     font-weight: bold;
     color: #44161d;
 }
@@ -18,7 +19,19 @@ ul{
 	display: inline-block;
 	text-align: left;
 }
+
 .menu {
-	background: black;
-	color: white;
+	display: flex;
+	justify-content: center;
+	list-style: none;
+}
+
+.menu li {
+	background: pink;
+	padding: 10px;
+}
+
+.menu a {
+	color: #44161d;
+	font-size: 120%;
 }
